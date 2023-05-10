@@ -53,10 +53,10 @@ body {
 .new-item-form input {
   outline: none;
   border: 1px solid hsl(200, 100%, 40%);
-  background: hsl(200, 100%, 30%);
+  background-color: lightgray;
   border-radius: 0.25em;
   padding: 0.25em 0.5em;
-  color: hsl(200, 100%, 90%);
+  color: blueviolet;
 }
 
 .new-item-form input:focus {
@@ -139,4 +139,9 @@ body {
 
 .list li:has(input:checked) label:hover::before {
   background: hsl(200, 100%, 40%);
+}
+h4{
+  text-align: center;
+  font-style: italic;
+  color:green;
 }
