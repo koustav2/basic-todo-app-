@@ -6,10 +6,10 @@ import "./styles.css";
 
 export default function App() {
   const [todos, setTodos] = useState(() => {
-    const localValue = localStorage.getItem("ITEMS");
-    if (localValue == null) return [];
+    const local = localStorage.getItem("ITEMS");
+    if (local == null) return [];
 
-    return JSON.parse(localValue);
+    return JSON.parse(local);
   });
 
   useEffect(() => {
